@@ -1,0 +1,153 @@
+#header{
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
+  }
+  #header .logo{
+    width: 110px;
+    padding-top: 5px;
+    
+  }
+  #navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    margin-left: 350px;
+    margin-top: 5px;
+  }
+  #navbar li{
+    list-style: none;
+    justify-content: space-between;
+    padding: 0px 20px;
+    justify-content: space-between;
+    
+  }
+  #navbar li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.3s ease;
+  }
+  #navbar li a:hover{
+    color: #8a8a8aa4;
+  }
+ 
+  #navbar2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    margin-left: 210px;
+  }
+  #navbar2 li{
+    list-style: none;
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+  #navbar2 li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s ease;
+    
+  }
+  #navbar2 li a:hover{
+    color: #8a8a8aa4;
+  }
+.cart-page{
+    margin: 80px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: burlywood;
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: burlywood;
+    font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table{
+    border-top: 3px solid burlywood;
+    width: 100%;
+    max-width: 400px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+#last{
+    display: flex;
+        margin-top: 50px;
+        justify-content: space-between;
+        
+    }
+    .logo-down{
+      width: 130px;
+    }
+    #last h3{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    #her li{
+       list-style: none;
+       align-items: center;
+       padding-top: 10px;
+    }
+    #her h4{
+        margin-left: 29px;
+    }
+    #him li{
+      list-style: none;
+      align-items: center;
+      padding-top: 10px;
+    }
+    #him h4{
+       margin-left: 29px;
+    }
+    .normal{
+        padding: 13px 30px;
+        
+        border-radius: 3px;
+        color: #000000;
+        border-color: transparent;
+    }
+    input{
+        padding: 13px 0px;
+        text-align: center;
+    }
+    #sub{
+        text-align: center;
+    }
